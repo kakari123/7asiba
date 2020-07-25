@@ -1,0 +1,13 @@
+numb1 = float(input("zhmaray yakam : "))
+halbzhera = input(" (+) , (-) , (*) , (/) : ")
+numb2 = float(input("zhmaray duwam : "))
+if halbzhera == "+":
+ print (numb1 + numb2)
+elif halbzhera == "-":
+ print (numb1 - numb2)
+elif halbzhera == "*":
+ print (numb1 * numb2)
+elif halbzhera == "/":
+ print (numb1 / numb2)
+else:
+ print ("yakek halbzhera")
